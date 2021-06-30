@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lytLayout"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="horizontal"
+
+    android:background="#555555"
+
+    android:padding="5dip" >
+
+    <ImageView
+        android:id="@+id/imgIcono"
+
+        android:layout_width="19dp"
+
+        android:layout_height="26dp"
+
+        app:srcCompat="@drawable/android" />
+
+    <TextView
+        android:id="@+id/txtMensaje"
+
+        android:layout_width="16dp"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_vertical"
+
+        android:paddingLeft="10dip"
+
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
